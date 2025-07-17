@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "hide-player-label",
+	"version": "${version}",
+	"name": "Hide Player Label",
+	"description": "Hide the nametag of other players client-side.",
+	"authors": [
+		"ChaoticByte"
+	],
+	"contact": {
+		"homepage": "https://github.com/ChaoticByte/hide-player-label",
+		"sources": "https://github.com/ChaoticByte/hide-player-label"
+	},
+	"license": "MIT",
+	"icon": "assets/hide-player-label/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"hide-player-label.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "1.21.7",
+		"java": ">=21"
+	},
+	"suggests": {}
+}
